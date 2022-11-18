@@ -1,0 +1,21 @@
+.photo-grid__list {
+  display: flex; /* Нужны grid для плавности при изменении размера экрана */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__list {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid__list {
+    gap: 12px;
+  }
+}

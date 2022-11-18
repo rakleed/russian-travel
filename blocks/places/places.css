@@ -1,0 +1,30 @@
+.places {
+  width: 100%;
+  padding: 46px 148px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 46px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    padding: 44px 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .places {
+    padding: 44px 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places {
+    padding: 32px 16px;
+  }
+}

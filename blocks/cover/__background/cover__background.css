@@ -1,0 +1,43 @@
+.cover__background {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1184px;
+  /*width: 100%;*/
+  /*min-height: 740px;*/
+  /*height: 100%;*/
+  /*height: auto;*/
+  margin: 0 auto;
+  background-image: url(../../../images/railway-station.jpg);
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*background-size: 100% 100%;*/
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__background {
+    min-height: 350px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}

@@ -1,0 +1,6 @@
+.header__link-wrapper {
+  width: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
