@@ -1,7 +1,6 @@
 .photo-grid__list {
-  display: flex; /* Нужны grid для плавности при изменении размера экрана */
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   margin: 0;
   padding: 0;
@@ -14,8 +13,20 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .photo-grid__list {
+    gap: 14px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .photo-grid__list {
     gap: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
