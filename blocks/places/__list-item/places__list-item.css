@@ -1,0 +1,3 @@
+.places__list-item:last-child > .place {
+  padding-bottom: 0;
+}
