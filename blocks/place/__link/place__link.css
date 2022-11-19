@@ -1,5 +1,5 @@
 .place__link {
-  display: block;
+  display: inline-block;
   color: #fff;
   padding-top: 12px;
   font-size: 18px;
