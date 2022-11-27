@@ -4,3 +4,9 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 425px) {
+  .header__link-wrapper {
+    width: 62px;
+  }
+}
