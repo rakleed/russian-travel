@@ -1,12 +1,15 @@
-.header__link-wrapper {
+.header__lang-list {
   width: 76px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 @media screen and (max-width: 425px) {
-  .header__link-wrapper {
+  .header__lang-list {
     width: 62px;
   }
 }
